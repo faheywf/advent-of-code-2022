@@ -64,7 +64,7 @@ class Round:
         return self.result() + self.your_move_score()
 
 def read_day_two_input() -> List[Round]:
-    with open('day2.txt') as f:
+    with open('inputs/day2.txt') as f:
         rounds = []
         for line in f.readlines():
             line = line.split()

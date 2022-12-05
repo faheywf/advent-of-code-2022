@@ -17,7 +17,7 @@ class Pair:
         return self.second.start <= self.first.start <= self.second.finish or self.second.start <= self.first.finish <= self.second.finish or self.first.start <= self.second.start <= self.first.finish or self.first.start <= self.second.finish <= self.first.finish
 
 def read_day_four_input() -> List[Pair]:
-    with open('day4.txt') as f:
+    with open('inputs/day4.txt') as f:
         pairs = []
         for line in f.readlines():
             first, second = line.split(',')

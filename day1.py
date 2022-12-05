@@ -8,7 +8,7 @@ class Elf:
         return sum(self.foods)
 
 def read_day_one_input() -> List[Elf]:
-    with open('day1.txt') as f:
+    with open('inputs/day1.txt') as f:
         elves = []
         elf = Elf()
         for line in f.readlines():

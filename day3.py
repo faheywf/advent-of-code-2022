@@ -6,7 +6,7 @@ def priority_map() -> Dict[str, int]:
     return priorities
 
 def read_day_three_input() -> List[str]:
-    with open('day3.txt') as f:
+    with open('inputs/day3.txt') as f:
         return [line.replace('\n', '') for line in f.readlines()]
 
 def day_three_part_one() -> int:
